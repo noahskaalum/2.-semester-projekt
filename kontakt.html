@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - En Grøn Verden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EN <span>GRØN</span> VERDEN</h1>
+        <div class="header-hoejre">
+            <div class="soegefelt">
+                <input type="search" aria-label="søg på hjemmesiden">
+                <span></span>
+            </div>
+            <details class="burger-menu">
+                <summary class="menu-knap" aria-label="åbn menu">
+               ☰     
+                </summary>
+                <nav class="dropdown-menu">
+                <a href="index.html">forside</a>
+                <a href="genbrug.html">genbrug</a>
+                <a href="ressourcer.html">jordens ressourcer</a>
+                <a href="hvem-er-vi.html">hvem er vi?</a>
+                <a href="kontakt.html">kontakt</a>
+                </nav>
+            </details>
+        </div>
+    </header> 
+
+    <main class="kontakt-side">
+    <div class="kontakt-tekst">
+        <p>
+            Kontakt os, ved enten at sende en mail
+            gennem vores kontakt boks - eller skriv
+            til mailen herunder.
+        </p>
+        <h2>
+            <a href="mailto:hejverden@gron.nu">
+                HEJVERDEN@GRON.NU
+            </a>
+        </h2>
+        <p>
+            Tak for din henvendelse, vi vil svare
+            tilbage hurtigst muligt!
+        </p>
+    </div>
+    
+
+<div class="kontakt-formular">
+
+    <h2>Kontakt os</h2>
+    <p>Vi glæder os til at høre fra dig!</p>
+
+    <form class="formular-felter">
+
+        <label for="navn">Dit navn</label>
+        <input type="text" id="navn"
+               placeholder="Skriv dit navn">
+
+        <label for="email">Din mail</label>
+        <input type="email" id="email"
+               placeholder="Skriv din mail">
+
+        <label for="besked">Din henvendelse</label>
+        <textarea id="besked"
+                  placeholder="Skriv din besked her..."></textarea>
+
+        <button type="button">SEND</button>
+
+    </form>
+
+</div>
+
+    </main>
+
+</body>
+</html>
